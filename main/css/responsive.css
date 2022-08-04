@@ -1,0 +1,81 @@
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    #blog .blog-post.blog-media .entry-thumbnail{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #main-menu.navbar-default .navbar-nav>li>a,
+    #main-menu.navbar-default .navbar-nav>li.active>a,
+    #main-menu.navbar-default .navbar-nav>li.open>a,
+    #main-menu.navbar-default .navbar-nav>li:hover>a {
+        padding: 0 15px;
+        line-height: 50px;
+        border-top: 3px solid transparent;
+    }
+    #main-menu.navbar-default .navbar-nav>li.active>a,
+    #main-menu.navbar-default .navbar-nav>li.open>a,
+    #main-menu.navbar-default .navbar-nav>li:hover>a {
+        border-top-color: #45aed6;
+    }
+    .navbar-header {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        float: none;
+        height: 60px;
+        display: inline-block;
+        padding: 10px;
+    }
+    .navbar>.container .navbar-brand img,
+    .navbar>.container-fluid .navbar-brand img {
+        max-height: 100%
+    }
+    #portfolio .portfolio-item{
+        width: 50%;
+    }
+    .team-column img.img-responsive{
+        width: 100%;
+    }
+    .team-column{
+        margin-bottom: 30px;
+    }
+    #blog .blog-post.blog-media .entry-thumbnail{
+        margin: -15px -15px 15px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    #blog .blog-post.blog-media .entry-thumbnail{
+        margin: -15px -15px 15px;
+        width: 100%;
+    }
+    #portfolio .portfolio-item{
+        width: 50%;
+    }
+    .team-column img.img-responsive{
+        width: 100%;
+    }
+    .team-column{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    #portfolio .portfolio-item{
+        width: 100%;
+    }
+    .team-column{
+        width: 100%;
+    }
+    .team-column img.img-responsive{
+        width: 100%;
+    }
+    #portfolio .portfolio-filter>li a{
+        font-size: 11px;\
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+}
